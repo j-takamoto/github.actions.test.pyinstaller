@@ -1,6 +1,8 @@
 name: push
 on:
   push:
+    tags:
+      - 'v*'
 
 jobs:
   windows-build:
