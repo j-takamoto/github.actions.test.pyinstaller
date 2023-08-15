@@ -5,7 +5,7 @@ root = tk.Tk()
 root.title("Tkinterrrrrr")
 root.geometry("640x480")
 
-lbl = ttk.Label(root, text="Hi!!!!!!!Tkinter!!!!")
+lbl = ttk.Label(root, text="Hi!tkinter!tag1")
 lbl.pack(anchor=tk.CENTER)
 
 root.mainloop()
