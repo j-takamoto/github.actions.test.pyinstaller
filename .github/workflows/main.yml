@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: sample-windows
-          path: dist/sample.exe
+          path: dist/main.exe
 
   release:
     needs: [windows-build]
@@ -48,7 +48,7 @@ jobs:
 
       - name: Zip
         run: |
-          zip --junk-paths sample-windows ./sample-windows/sample.exe\
+          zip --junk-paths sample-windows ./sample-windows/main.exe\
 
       - name: Append Binary
         uses: actions/upload-release-asset@v1
