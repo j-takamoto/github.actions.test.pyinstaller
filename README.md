@@ -1,7 +1,7 @@
 # github.actions.test.pyinstaller
 
 ### PythonアプリをPyInstallerでexe化して、Releaseするサンプルです
-### Workflowは先頭に"v"のついたタグをPushした際に実行します
+### 先頭に"v"のついたタグをPushした際にWorkflowを実行します
 
 ## タグPush手順
 
