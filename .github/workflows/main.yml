@@ -80,7 +80,7 @@ jobs:
       # リリースファイルをZip圧縮
       - name: Create Zip
         run: |
-          zip --junk-paths main ./dist/main.exe\
+          zip main ./dist/main.exe\
 
       # リリースにファイルを追加
       - name: Append Binary
